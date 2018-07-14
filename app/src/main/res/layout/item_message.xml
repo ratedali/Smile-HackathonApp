@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="message"
+            type="io.divergents.hackathon.smile.data.Message" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_rectangle"
+            android:backgroundTint="@color/colorAccent"
+            android:minWidth="48dp"
+            android:padding="8dp"
+            android:text="@{message.content}"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteX="148dp" />
+    </android.support.constraint.ConstraintLayout>
+</layout>

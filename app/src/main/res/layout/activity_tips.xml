@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="#F8BBD0"
+        android:orientation="vertical"
+        tools:context=".Tips">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="Tips on how to communicate with Autistic people!"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="Part 1 - Understanding Their Needs:"
+
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_1"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="1. Don't worry about eye contact. Most autistic people don't make eye contact often, and may feel uncomfortable if you try to force them to do so. Autistic people can usually think, listen, and speak better when they don't need to make eye contact."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_2"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="2. Avoid touching them unexpectedly. Some autistic people are highly sensitive to touch, and even a friendly pat on the back can feel alarming or painful. Feel free to ask the autistic person what their likes and boundaries are. For example, some autistic people are distracted by a hand on their shoulder, while others love bear hugs. In general, don't touch an autistic person without their consent, and try not to startle them."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_3"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="3. Find a peaceful area to hang out. Due to Sensory Processing Disorder, an autistic person might have trouble filtering out ambient noises and sights. Thus, it's a good idea to hang out in a quieter place, so they can better focus on the conversation."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_4"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="4. Speak clearly and understandably. While some autistic people have no barriers to typical conversation, others may not understand everything you say. Be respectful, and be willing to repeat yourself if they didn't catch what you said. Here are some difficulties they may face."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_5"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="5. Be aware of challenges with reading social cues. Autistic people may not understand facial expressions, body language, hidden implications, or hints—it depends on the individual. It helps to be clear about your thoughts and feelings. If they do something that's socially tone-deaf, assume ignorance rather than malice. It's unlikely that they mean any harm by it."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_6"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="6. Know that you may witness a meltdown or shutdown. Meltdowns occur when an autistic person can no longer suppress their pent-up stress, and releases it in a fit of emotion that may resemble a breakdown or tantrum. Shutdowns look like the opposite: the person &lt;shuts down,&gt; becomes passive, and loses the ability to interact. In both cases, it's important to give them patience and compassion."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_7"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="7. Expect them to stim. Stimming is a natural autistic behavior that helps them stay calm, think clearly, feel good, express their feelings, and adapt to a challenging world. When your friend stims, act like there's nothing unusual about it: ignore it and keep talking, or respond to their emotion (e.g. laughing along with them, or asking if they're doing okay because they look distressed). They will appreciate your acceptance."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_8"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="8. If you aren't sure about their needs, ask. It's okay to ask an autistic person about how you can accommodate their needs. Asking is much better than assuming. People who are labeled as high functioning often are expected to adapt to non-autistic standards (however painful or difficult it might be), while -low functioning- people might be treated as if they cannot understand anything, let alone their minds or needs. Being asked about their needs is often a relief."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_9"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="9. Consider reading about autism. The internet is full of information from autistic-run organizations and autistic writers (like Cynthia Kim and Amy Sequenzia) who offer insights into the ways their minds work. Kim's website has a list of recommended blogs in the sidebar."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_10"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="10. Remember that autism is more than a list of deficits and challenges. It also comes with some significant strengths, that can make autistic people be very good friends. Many autistic people are funny, genuine, loyal, loving, and insightful. Recognize your friend's individual strengths, and appreciate them for the person they are. You can acknowledge a disability while still appreciating the person as a worthwhile, likable human being."
+            android:textSize="24dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:src="@drawable/p1_11"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp"
+            android:text="11. Try to be understanding. Every autistic person is different, and their differences may make them seem odd or even rude. It might be because of a disability that they haven't disclosed, a co-occurring condition, or a lack of understanding of social rules. Most likely, they never intended to be rude, and feel upset and apologetic if they learn that they hurt someone's feelings."
+            android:textSize="24dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

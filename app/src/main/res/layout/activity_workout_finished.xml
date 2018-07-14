@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkoutFinishedActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/goodjob"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:text="YOU DID IT !"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#F57C00"
+        />
+    <Button
+        android:id="@+id/exersice_button"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+
+
+        android:background="@drawable/login_button_style"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="finished"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="440dp"
+        android:onClick="return_to_main"
+
+
+        />
+
+
+</RelativeLayout>

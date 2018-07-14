@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Smile</string>
+    <string name="message_entry_hint">Say something…</string>
+    <string name="login">Login</string>
+    <string name="send">Send</string>
+    <string name="email_label">Email</string>
+    <string name="username_hint">not necessary a real name</string>
+    <string name="password_label">Password</string>
+    <string name="navigation_about">Tips and Information</string>
+    <string name="navigation_therapy">Talk to a Doctor</string>
+    <string name="navigation_chat">Chat</string>
+    <string name="navigation_exercises">Exercises</string>
+    <string name="navigation_casts">Music and Podcasts</string>
+    <string name="navigation_kids">Kids World</string>
+    <string name="navigation_settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="pinned">Pinned</string>
+    <string name="popular">Popular</string>
+    <string name="scroll_behavior" translatable="false">@string/appbar_scrolling_view_behavior</string>
+    <string name="appbar_scrolling_view_behavior" translatable="false">
+android.support.design.widget.AppBarLayout$ScrollingViewBehavior
+</string>
+    <string name="grid_layout_manager" translatable="false">
+com.hackthon3.widgets.recyclerview.layout_manager.GridManager
+</string>
+    <string name="workout_time">Workout Time!</string>
+    <string name="start_button_label">start</string>
+</resources>

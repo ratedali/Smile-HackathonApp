@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.hackthon3.widgets.GifImageView
+        android:id="@+id/GifImageView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        />
+
+
+
+
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+
+

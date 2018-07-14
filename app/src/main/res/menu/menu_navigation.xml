@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item_about"
+            android:icon="@drawable/nav_about"
+            android:title="@string/navigation_about" />
+        <item
+            android:id="@+id/menu_item_therapy"
+            android:icon="@drawable/nav_therapy"
+            android:title="@string/navigation_therapy" />
+        <item
+            android:id="@+id/menu_item_group_chat"
+            android:icon="@drawable/nav_chat"
+            android:title="@string/navigation_chat" />
+        <item
+            android:id="@+id/menu_item_exercises"
+            android:icon="@drawable/nav_exercises"
+            android:title="@string/navigation_exercises" />
+        <item
+            android:id="@+id/menu_item_casts"
+            android:icon="@drawable/nav_casts"
+            android:title="@string/navigation_casts" />
+        <item
+            android:id="@+id/menu_item_kids"
+            android:icon="@drawable/nav_kids"
+            android:title="@string/navigation_kids" />
+
+        <item
+            android:id="@+id/menu_item_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="@string/navigation_settings"/>
+    </group>
+</menu>
